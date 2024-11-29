@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(168, 168, 168);
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(12, 87, 5);
+}
