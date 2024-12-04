@@ -5,3 +5,6 @@ def about(req):
 
 def homepage(req):
     return render(req, "homepage.html")
+
+def layout(req):
+    return render(req, "layout.html")

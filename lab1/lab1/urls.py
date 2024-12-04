@@ -25,4 +25,5 @@ urlpatterns = [
     path('', views.homepage),
     path('posts/', include('posts.urls')),
     path('communities/', include('communities.urls')),
+    path('layout/', views.layout),
 ]
