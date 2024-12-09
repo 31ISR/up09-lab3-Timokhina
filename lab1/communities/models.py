@@ -1,6 +1,6 @@
 from django.db import models
 
-class Communitie(models.Model):
+class Communities(models.Model):
     name = models.CharField(max_length=75)
     description = models.CharField(max_length=150)
     slug = models.SlugField()
