@@ -3,11 +3,11 @@
 <section>
     <h1>Communities</h1>
 
-    {% for communities in communities %}
-    <article class="communities">
-        <h2>{{ communities.name }}</h2>
-        <p>{{ communities.date}}</p>
-        <p>{{ communities.description }}</p>
+    {% for community in commun %}
+    <article class="community">
+        <h2> <a href="{%  url 'communities:page' slug=community.slug %}">{{ community.name }}</h2></a>
+        <p>{{ community.date }}</p>
+        <p>{{ community.description }}</p>
     </article>
     {% endfor %}
 </section>
