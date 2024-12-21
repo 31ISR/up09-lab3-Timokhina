@@ -14,6 +14,8 @@
             <li><a href="/about">Обо мне</a></li>
             <li><a href="{% url 'posts:list' %}">Посты</a></li>
             <li><a href="{% url 'communities:list' %}">Группы</a></li>
+            <li><a href="{% url 'users:login' %}">Войти</a></li>
+            <li><a href="{% url 'users:register' %}">Зарегестрироваться</a></li>
         </ul>
         <main>{% block content %} {% endblock %}</main>
     </body>
